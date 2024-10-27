@@ -28,3 +28,4 @@ EOF
 echo "logging out after 30 seconds"
 sleep 30
 sudo reboot
+fi
