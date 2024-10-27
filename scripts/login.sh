@@ -27,4 +27,4 @@ exit
 EOF
 echo "logging out after 30 seconds"
 sleep 30
-logout
+sudo reboot
