@@ -671,13 +671,6 @@ find: ‘/proc/30/fd’: Permission denied
 find: ‘/proc/30/map_files’: Permission denied
 find: ‘/proc/30/fdinfo’: Permission denied
 find: ‘/proc/30/ns’: Permission denied
-find: ‘/proc/31/task/31/fd’: Permission denied
-find: ‘/proc/31/task/31/fdinfo’: Permission denied
-find: ‘/proc/31/task/31/ns’: Permission denied
-find: ‘/proc/31/fd’: Permission denied
-find: ‘/proc/31/map_files’: Permission denied
-find: ‘/proc/31/fdinfo’: Permission denied
-find: ‘/proc/31/ns’: Permission denied
 find: ‘/proc/32/task/32/fd’: Permission denied
 find: ‘/proc/32/task/32/fdinfo’: Permission denied
 find: ‘/proc/32/task/32/ns’: Permission denied
@@ -1084,13 +1077,6 @@ find: ‘/proc/94/fd’: Permission denied
 find: ‘/proc/94/map_files’: Permission denied
 find: ‘/proc/94/fdinfo’: Permission denied
 find: ‘/proc/94/ns’: Permission denied
-find: ‘/proc/95/task/95/fd’: Permission denied
-find: ‘/proc/95/task/95/fdinfo’: Permission denied
-find: ‘/proc/95/task/95/ns’: Permission denied
-find: ‘/proc/95/fd’: Permission denied
-find: ‘/proc/95/map_files’: Permission denied
-find: ‘/proc/95/fdinfo’: Permission denied
-find: ‘/proc/95/ns’: Permission denied
 find: ‘/proc/97/task/97/fd’: Permission denied
 find: ‘/proc/97/task/97/fdinfo’: Permission denied
 find: ‘/proc/97/task/97/ns’: Permission denied
@@ -1574,20 +1560,6 @@ find: ‘/proc/247/fd’: Permission denied
 find: ‘/proc/247/map_files’: Permission denied
 find: ‘/proc/247/fdinfo’: Permission denied
 find: ‘/proc/247/ns’: Permission denied
-find: ‘/proc/271/task/271/fd’: Permission denied
-find: ‘/proc/271/task/271/fdinfo’: Permission denied
-find: ‘/proc/271/task/271/ns’: Permission denied
-find: ‘/proc/271/fd’: Permission denied
-find: ‘/proc/271/map_files’: Permission denied
-find: ‘/proc/271/fdinfo’: Permission denied
-find: ‘/proc/271/ns’: Permission denied
-find: ‘/proc/272/task/272/fd’: Permission denied
-find: ‘/proc/272/task/272/fdinfo’: Permission denied
-find: ‘/proc/272/task/272/ns’: Permission denied
-find: ‘/proc/272/fd’: Permission denied
-find: ‘/proc/272/map_files’: Permission denied
-find: ‘/proc/272/fdinfo’: Permission denied
-find: ‘/proc/272/ns’: Permission denied
 find: ‘/proc/278/task/278/fd’: Permission denied
 find: ‘/proc/278/task/278/fdinfo’: Permission denied
 find: ‘/proc/278/task/278/ns’: Permission denied
@@ -1909,22 +1881,6 @@ find: ‘/proc/1089/fd’: Permission denied
 find: ‘/proc/1089/map_files’: Permission denied
 find: ‘/proc/1089/fdinfo’: Permission denied
 find: ‘/proc/1089/ns’: Permission denied
-find: ‘/proc/1098/task/1098/fd’: Permission denied
-find: ‘/proc/1098/task/1098/fdinfo’: Permission denied
-find: ‘/proc/1098/task/1098/ns’: Permission denied
-find: ‘/proc/1098/task/1125/fd’: Permission denied
-find: ‘/proc/1098/task/1125/fdinfo’: Permission denied
-find: ‘/proc/1098/task/1125/ns’: Permission denied
-find: ‘/proc/1098/task/1126/fd’: Permission denied
-find: ‘/proc/1098/task/1126/fdinfo’: Permission denied
-find: ‘/proc/1098/task/1126/ns’: Permission denied
-find: ‘/proc/1098/task/1127/fd’: Permission denied
-find: ‘/proc/1098/task/1127/fdinfo’: Permission denied
-find: ‘/proc/1098/task/1127/ns’: Permission denied
-find: ‘/proc/1098/fd’: Permission denied
-find: ‘/proc/1098/map_files’: Permission denied
-find: ‘/proc/1098/fdinfo’: Permission denied
-find: ‘/proc/1098/ns’: Permission denied
 find: ‘/proc/1109/task/1109/fd’: Permission denied
 find: ‘/proc/1109/task/1109/fdinfo’: Permission denied
 find: ‘/proc/1109/task/1109/ns’: Permission denied
@@ -2146,13 +2102,6 @@ find: ‘/proc/3070/fd’: Permission denied
 find: ‘/proc/3070/map_files’: Permission denied
 find: ‘/proc/3070/fdinfo’: Permission denied
 find: ‘/proc/3070/ns’: Permission denied
-find: ‘/proc/3696/task/3696/fd’: Permission denied
-find: ‘/proc/3696/task/3696/fdinfo’: Permission denied
-find: ‘/proc/3696/task/3696/ns’: Permission denied
-find: ‘/proc/3696/fd’: Permission denied
-find: ‘/proc/3696/map_files’: Permission denied
-find: ‘/proc/3696/fdinfo’: Permission denied
-find: ‘/proc/3696/ns’: Permission denied
 find: ‘/proc/3824/task/3824/fd’: Permission denied
 find: ‘/proc/3824/task/3824/fdinfo’: Permission denied
 find: ‘/proc/3824/task/3824/ns’: Permission denied
@@ -2160,13 +2109,6 @@ find: ‘/proc/3824/fd’: Permission denied
 find: ‘/proc/3824/map_files’: Permission denied
 find: ‘/proc/3824/fdinfo’: Permission denied
 find: ‘/proc/3824/ns’: Permission denied
-find: ‘/proc/3827/task/3827/fd’: Permission denied
-find: ‘/proc/3827/task/3827/fdinfo’: Permission denied
-find: ‘/proc/3827/task/3827/ns’: Permission denied
-find: ‘/proc/3827/fd’: Permission denied
-find: ‘/proc/3827/map_files’: Permission denied
-find: ‘/proc/3827/fdinfo’: Permission denied
-find: ‘/proc/3827/ns’: Permission denied
 find: ‘/proc/3847/task/3847/fd’: Permission denied
 find: ‘/proc/3847/task/3847/fdinfo’: Permission denied
 find: ‘/proc/3847/task/3847/ns’: Permission denied
@@ -2174,20 +2116,6 @@ find: ‘/proc/3847/fd’: Permission denied
 find: ‘/proc/3847/map_files’: Permission denied
 find: ‘/proc/3847/fdinfo’: Permission denied
 find: ‘/proc/3847/ns’: Permission denied
-find: ‘/proc/3915/task/3915/fd’: Permission denied
-find: ‘/proc/3915/task/3915/fdinfo’: Permission denied
-find: ‘/proc/3915/task/3915/ns’: Permission denied
-find: ‘/proc/3915/fd’: Permission denied
-find: ‘/proc/3915/map_files’: Permission denied
-find: ‘/proc/3915/fdinfo’: Permission denied
-find: ‘/proc/3915/ns’: Permission denied
-find: ‘/proc/3917/task/3917/fd’: Permission denied
-find: ‘/proc/3917/task/3917/fdinfo’: Permission denied
-find: ‘/proc/3917/task/3917/ns’: Permission denied
-find: ‘/proc/3917/fd’: Permission denied
-find: ‘/proc/3917/map_files’: Permission denied
-find: ‘/proc/3917/fdinfo’: Permission denied
-find: ‘/proc/3917/ns’: Permission denied
 find: ‘/proc/3941/task/3941/fd’: Permission denied
 find: ‘/proc/3941/task/3941/fdinfo’: Permission denied
 find: ‘/proc/3941/task/3941/ns’: Permission denied
@@ -2195,13 +2123,6 @@ find: ‘/proc/3941/fd’: Permission denied
 find: ‘/proc/3941/map_files’: Permission denied
 find: ‘/proc/3941/fdinfo’: Permission denied
 find: ‘/proc/3941/ns’: Permission denied
-find: ‘/proc/3944/task/3944/fd’: Permission denied
-find: ‘/proc/3944/task/3944/fdinfo’: Permission denied
-find: ‘/proc/3944/task/3944/ns’: Permission denied
-find: ‘/proc/3944/fd’: Permission denied
-find: ‘/proc/3944/map_files’: Permission denied
-find: ‘/proc/3944/fdinfo’: Permission denied
-find: ‘/proc/3944/ns’: Permission denied
 find: ‘/proc/3984/task/3984/fd’: Permission denied
 find: ‘/proc/3984/task/3984/fdinfo’: Permission denied
 find: ‘/proc/3984/task/3984/ns’: Permission denied
@@ -2216,20 +2137,6 @@ find: ‘/proc/3990/fd’: Permission denied
 find: ‘/proc/3990/map_files’: Permission denied
 find: ‘/proc/3990/fdinfo’: Permission denied
 find: ‘/proc/3990/ns’: Permission denied
-find: ‘/proc/4021/task/4021/fd’: Permission denied
-find: ‘/proc/4021/task/4021/fdinfo’: Permission denied
-find: ‘/proc/4021/task/4021/ns’: Permission denied
-find: ‘/proc/4021/fd’: Permission denied
-find: ‘/proc/4021/map_files’: Permission denied
-find: ‘/proc/4021/fdinfo’: Permission denied
-find: ‘/proc/4021/ns’: Permission denied
-find: ‘/proc/4022/task/4022/fd’: Permission denied
-find: ‘/proc/4022/task/4022/fdinfo’: Permission denied
-find: ‘/proc/4022/task/4022/ns’: Permission denied
-find: ‘/proc/4022/fd’: Permission denied
-find: ‘/proc/4022/map_files’: Permission denied
-find: ‘/proc/4022/fdinfo’: Permission denied
-find: ‘/proc/4022/ns’: Permission denied
 find: ‘/proc/4023/task/4023/fd’: Permission denied
 find: ‘/proc/4023/task/4023/fdinfo’: Permission denied
 find: ‘/proc/4023/task/4023/ns’: Permission denied
@@ -2237,83 +2144,6 @@ find: ‘/proc/4023/fd’: Permission denied
 find: ‘/proc/4023/map_files’: Permission denied
 find: ‘/proc/4023/fdinfo’: Permission denied
 find: ‘/proc/4023/ns’: Permission denied
-find: ‘/proc/4028/task/4028/fd’: Permission denied
-find: ‘/proc/4028/task/4028/fdinfo’: Permission denied
-find: ‘/proc/4028/task/4028/ns’: Permission denied
-find: ‘/proc/4028/fd’: Permission denied
-find: ‘/proc/4028/map_files’: Permission denied
-find: ‘/proc/4028/fdinfo’: Permission denied
-find: ‘/proc/4028/ns’: Permission denied
-find: ‘/proc/4048/task/4048/fd’: Permission denied
-find: ‘/proc/4048/task/4048/fdinfo’: Permission denied
-find: ‘/proc/4048/task/4048/ns’: Permission denied
-find: ‘/proc/4048/fd’: Permission denied
-find: ‘/proc/4048/map_files’: Permission denied
-find: ‘/proc/4048/fdinfo’: Permission denied
-find: ‘/proc/4048/ns’: Permission denied
-find: ‘/proc/4049/task/4049/fd’: Permission denied
-find: ‘/proc/4049/task/4049/fdinfo’: Permission denied
-find: ‘/proc/4049/task/4049/ns’: Permission denied
-find: ‘/proc/4049/fd’: Permission denied
-find: ‘/proc/4049/map_files’: Permission denied
-find: ‘/proc/4049/fdinfo’: Permission denied
-find: ‘/proc/4049/ns’: Permission denied
-find: ‘/proc/4050/task/4050/fd’: Permission denied
-find: ‘/proc/4050/task/4050/fdinfo’: Permission denied
-find: ‘/proc/4050/task/4050/ns’: Permission denied
-find: ‘/proc/4050/fd’: Permission denied
-find: ‘/proc/4050/map_files’: Permission denied
-find: ‘/proc/4050/fdinfo’: Permission denied
-find: ‘/proc/4050/ns’: Permission denied
-find: ‘/proc/4051/task/4051/fd’: Permission denied
-find: ‘/proc/4051/task/4051/fdinfo’: Permission denied
-find: ‘/proc/4051/task/4051/ns’: Permission denied
-find: ‘/proc/4051/fd’: Permission denied
-find: ‘/proc/4051/map_files’: Permission denied
-find: ‘/proc/4051/fdinfo’: Permission denied
-find: ‘/proc/4051/ns’: Permission denied
-find: ‘/proc/4052/task/4052/fd’: Permission denied
-find: ‘/proc/4052/task/4052/fdinfo’: Permission denied
-find: ‘/proc/4052/task/4052/ns’: Permission denied
-find: ‘/proc/4052/fd’: Permission denied
-find: ‘/proc/4052/map_files’: Permission denied
-find: ‘/proc/4052/fdinfo’: Permission denied
-find: ‘/proc/4052/ns’: Permission denied
-find: ‘/proc/4053/task/4053/fd’: Permission denied
-find: ‘/proc/4053/task/4053/fdinfo’: Permission denied
-find: ‘/proc/4053/task/4053/ns’: Permission denied
-find: ‘/proc/4053/fd’: Permission denied
-find: ‘/proc/4053/map_files’: Permission denied
-find: ‘/proc/4053/fdinfo’: Permission denied
-find: ‘/proc/4053/ns’: Permission denied
-find: ‘/proc/4054/task/4054/fd’: Permission denied
-find: ‘/proc/4054/task/4054/fdinfo’: Permission denied
-find: ‘/proc/4054/task/4054/ns’: Permission denied
-find: ‘/proc/4054/fd’: Permission denied
-find: ‘/proc/4054/map_files’: Permission denied
-find: ‘/proc/4054/fdinfo’: Permission denied
-find: ‘/proc/4054/ns’: Permission denied
-find: ‘/proc/4055/task/4055/fd’: Permission denied
-find: ‘/proc/4055/task/4055/fdinfo’: Permission denied
-find: ‘/proc/4055/task/4055/ns’: Permission denied
-find: ‘/proc/4055/fd’: Permission denied
-find: ‘/proc/4055/map_files’: Permission denied
-find: ‘/proc/4055/fdinfo’: Permission denied
-find: ‘/proc/4055/ns’: Permission denied
-find: ‘/proc/4056/task/4056/fd’: Permission denied
-find: ‘/proc/4056/task/4056/fdinfo’: Permission denied
-find: ‘/proc/4056/task/4056/ns’: Permission denied
-find: ‘/proc/4056/fd’: Permission denied
-find: ‘/proc/4056/map_files’: Permission denied
-find: ‘/proc/4056/fdinfo’: Permission denied
-find: ‘/proc/4056/ns’: Permission denied
-find: ‘/proc/4061/task/4061/fd’: Permission denied
-find: ‘/proc/4061/task/4061/fdinfo’: Permission denied
-find: ‘/proc/4061/task/4061/ns’: Permission denied
-find: ‘/proc/4061/fd’: Permission denied
-find: ‘/proc/4061/map_files’: Permission denied
-find: ‘/proc/4061/fdinfo’: Permission denied
-find: ‘/proc/4061/ns’: Permission denied
 find: ‘/proc/4078/task/4078/fd’: Permission denied
 find: ‘/proc/4078/task/4078/fdinfo’: Permission denied
 find: ‘/proc/4078/task/4078/ns’: Permission denied
@@ -2321,13 +2151,6 @@ find: ‘/proc/4078/fd’: Permission denied
 find: ‘/proc/4078/map_files’: Permission denied
 find: ‘/proc/4078/fdinfo’: Permission denied
 find: ‘/proc/4078/ns’: Permission denied
-find: ‘/proc/4093/task/4093/fd’: Permission denied
-find: ‘/proc/4093/task/4093/fdinfo’: Permission denied
-find: ‘/proc/4093/task/4093/ns’: Permission denied
-find: ‘/proc/4093/fd’: Permission denied
-find: ‘/proc/4093/map_files’: Permission denied
-find: ‘/proc/4093/fdinfo’: Permission denied
-find: ‘/proc/4093/ns’: Permission denied
 find: ‘/proc/4107/task/4107/fd’: Permission denied
 find: ‘/proc/4107/task/4107/fdinfo’: Permission denied
 find: ‘/proc/4107/task/4107/ns’: Permission denied
@@ -2342,8 +2165,95 @@ find: ‘/proc/4120/fd’: Permission denied
 find: ‘/proc/4120/map_files’: Permission denied
 find: ‘/proc/4120/fdinfo’: Permission denied
 find: ‘/proc/4120/ns’: Permission denied
-find: ‘/proc/4125/task/4125/fdinfo/6’: No such file or directory
-find: ‘/proc/4125/fdinfo/5’: No such file or directory
+find: ‘/proc/4174/task/4174/fd’: Permission denied
+find: ‘/proc/4174/task/4174/fdinfo’: Permission denied
+find: ‘/proc/4174/task/4174/ns’: Permission denied
+find: ‘/proc/4174/fd’: Permission denied
+find: ‘/proc/4174/map_files’: Permission denied
+find: ‘/proc/4174/fdinfo’: Permission denied
+find: ‘/proc/4174/ns’: Permission denied
+find: ‘/proc/4845/task/4845/fd’: Permission denied
+find: ‘/proc/4845/task/4845/fdinfo’: Permission denied
+find: ‘/proc/4845/task/4845/ns’: Permission denied
+find: ‘/proc/4845/fd’: Permission denied
+find: ‘/proc/4845/map_files’: Permission denied
+find: ‘/proc/4845/fdinfo’: Permission denied
+find: ‘/proc/4845/ns’: Permission denied
+find: ‘/proc/4878/task/4878/fd’: Permission denied
+find: ‘/proc/4878/task/4878/fdinfo’: Permission denied
+find: ‘/proc/4878/task/4878/ns’: Permission denied
+find: ‘/proc/4878/task/4880/fd’: Permission denied
+find: ‘/proc/4878/task/4880/fdinfo’: Permission denied
+find: ‘/proc/4878/task/4880/ns’: Permission denied
+find: ‘/proc/4878/task/4881/fd’: Permission denied
+find: ‘/proc/4878/task/4881/fdinfo’: Permission denied
+find: ‘/proc/4878/task/4881/ns’: Permission denied
+find: ‘/proc/4878/task/4882/fd’: Permission denied
+find: ‘/proc/4878/task/4882/fdinfo’: Permission denied
+find: ‘/proc/4878/task/4882/ns’: Permission denied
+find: ‘/proc/4878/fd’: Permission denied
+find: ‘/proc/4878/map_files’: Permission denied
+find: ‘/proc/4878/fdinfo’: Permission denied
+find: ‘/proc/4878/ns’: Permission denied
+find: ‘/proc/4941/task/4941/fd’: Permission denied
+find: ‘/proc/4941/task/4941/fdinfo’: Permission denied
+find: ‘/proc/4941/task/4941/ns’: Permission denied
+find: ‘/proc/4941/fd’: Permission denied
+find: ‘/proc/4941/map_files’: Permission denied
+find: ‘/proc/4941/fdinfo’: Permission denied
+find: ‘/proc/4941/ns’: Permission denied
+find: ‘/proc/4962/task/4962/fd’: Permission denied
+find: ‘/proc/4962/task/4962/fdinfo’: Permission denied
+find: ‘/proc/4962/task/4962/ns’: Permission denied
+find: ‘/proc/4962/task/4963/fd’: Permission denied
+find: ‘/proc/4962/task/4963/fdinfo’: Permission denied
+find: ‘/proc/4962/task/4963/ns’: Permission denied
+find: ‘/proc/4962/task/4964/fd’: Permission denied
+find: ‘/proc/4962/task/4964/fdinfo’: Permission denied
+find: ‘/proc/4962/task/4964/ns’: Permission denied
+find: ‘/proc/4962/task/4965/fd’: Permission denied
+find: ‘/proc/4962/task/4965/fdinfo’: Permission denied
+find: ‘/proc/4962/task/4965/ns’: Permission denied
+find: ‘/proc/4962/task/4966/fd’: Permission denied
+find: ‘/proc/4962/task/4966/fdinfo’: Permission denied
+find: ‘/proc/4962/task/4966/ns’: Permission denied
+find: ‘/proc/4962/task/4968/fd’: Permission denied
+find: ‘/proc/4962/task/4968/fdinfo’: Permission denied
+find: ‘/proc/4962/task/4968/ns’: Permission denied
+find: ‘/proc/4962/fd’: Permission denied
+find: ‘/proc/4962/map_files’: Permission denied
+find: ‘/proc/4962/fdinfo’: Permission denied
+find: ‘/proc/4962/ns’: Permission denied
+find: ‘/proc/4970/task/4970/fd’: Permission denied
+find: ‘/proc/4970/task/4970/fdinfo’: Permission denied
+find: ‘/proc/4970/task/4970/ns’: Permission denied
+find: ‘/proc/4970/fd’: Permission denied
+find: ‘/proc/4970/map_files’: Permission denied
+find: ‘/proc/4970/fdinfo’: Permission denied
+find: ‘/proc/4970/ns’: Permission denied
+find: ‘/proc/4972/task/4972/fd’: Permission denied
+find: ‘/proc/4972/task/4972/fdinfo’: Permission denied
+find: ‘/proc/4972/task/4972/ns’: Permission denied
+find: ‘/proc/4972/fd’: Permission denied
+find: ‘/proc/4972/map_files’: Permission denied
+find: ‘/proc/4972/fdinfo’: Permission denied
+find: ‘/proc/4972/ns’: Permission denied
+find: ‘/proc/4982/task/4982/fd’: Permission denied
+find: ‘/proc/4982/task/4982/fdinfo’: Permission denied
+find: ‘/proc/4982/task/4982/ns’: Permission denied
+find: ‘/proc/4982/fd’: Permission denied
+find: ‘/proc/4982/map_files’: Permission denied
+find: ‘/proc/4982/fdinfo’: Permission denied
+find: ‘/proc/4982/ns’: Permission denied
+find: ‘/proc/4983/task/4983/fd’: Permission denied
+find: ‘/proc/4983/task/4983/fdinfo’: Permission denied
+find: ‘/proc/4983/task/4983/ns’: Permission denied
+find: ‘/proc/4983/fd’: Permission denied
+find: ‘/proc/4983/map_files’: Permission denied
+find: ‘/proc/4983/fdinfo’: Permission denied
+find: ‘/proc/4983/ns’: Permission denied
+find: ‘/proc/5006/task/5006/fdinfo/6’: No such file or directory
+find: ‘/proc/5006/fdinfo/5’: No such file or directory
 find: ‘/run/initramfs’: Permission denied
 find: ‘/run/systemd/inaccessible/dir’: Permission denied
 find: ‘/run/systemd/propagate/systemd-udevd.service’: Permission denied
@@ -2360,7 +2270,9 @@ find: ‘/run/systemd/propagate/ModemManager.service’: Permission denied
 find: ‘/run/systemd/propagate/rtkit-daemon.service’: Permission denied
 find: ‘/run/systemd/propagate/colord.service’: Permission denied
 find: ‘/run/systemd/propagate/upower.service’: Permission denied
+find: ‘/run/systemd/propagate/fwupd.service’: Permission denied
 find: ‘/run/systemd/resolve/netif’: Permission denied
+find: ‘/run/systemd/ask-password-block’: Permission denied
 find: ‘/run/NetworkManager/system-connections’: Permission denied
 find: ‘/run/openvpn-client’: Permission denied
 find: ‘/run/openvpn-server’: Permission denied
@@ -2569,6 +2481,7 @@ find: ‘/run/gdm3’: Permission denied
 /usr/lib/x86_64-linux-gnu/dri/crocus_dri.so
 /usr/lib/x86_64-linux-gnu/libvulkan_radeon.so
 /usr/lib/x86_64-linux-gnu/sane/libsane-genesys.so.1.2.1
+/usr/lib/x86_64-linux-gnu/libguile-3.0.so.1.6.0
 /usr/lib/x86_64-linux-gnu/libexempi.so.8.1.5
 /usr/lib/x86_64-linux-gnu/libadwaita-1.so.0
 /usr/lib/x86_64-linux-gnu/libflite_cmu_us_rms.so.2.2
@@ -2603,6 +2516,9 @@ find: ‘/run/gdm3’: Permission denied
 /usr/lib/x86_64-linux-gnu/libgtk-4.so.1.1400.2
 /usr/lib/x86_64-linux-gnu/libcairo.so.2.11800.0
 /usr/lib/x86_64-linux-gnu/libperl.so.5.38.2
+/usr/lib/x86_64-linux-gnu/guile/3.0/ccache/language/cps.go
+/usr/lib/x86_64-linux-gnu/guile/3.0/ccache/system/vm/dwarf.go
+/usr/lib/x86_64-linux-gnu/guile/3.0/ccache/system/vm/assembler.go
 /usr/lib/x86_64-linux-gnu/libgs.so.10.02
 /usr/lib/x86_64-linux-gnu/org.gnome.Characters/libgc.so
 /usr/lib/x86_64-linux-gnu/libndr-standard.so.0.0.1
@@ -2633,6 +2549,7 @@ find: ‘/run/gdm3’: Permission denied
 /usr/lib/x86_64-linux-gnu/vdpau/libvdpau_d3d12.so.1.0.0
 /usr/lib/x86_64-linux-gnu/vdpau/libvdpau_nouveau.so.1.0.0
 /usr/lib/x86_64-linux-gnu/libjxl.so.0.7.0
+/usr/lib/x86_64-linux-gnu/libmysqlclient.so.21.2.39
 /usr/lib/x86_64-linux-gnu/libbcc.so.0.29.1
 /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
 /usr/lib/x86_64-linux-gnu/libsamplerate.so.0.2.2
@@ -2847,6 +2764,7 @@ find: ‘/run/gdm3’: Permission denied
 /home/aisha/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Video.db-wal
 /home/aisha/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db-wal
 /home/aisha/.cache/gstreamer-1.0/registry.x86_64.bin
+find: ‘/tmp/systemd-private-09aab6146078454bb8809fd373a1771c-fwupd.service-oULSyI’: Permission denied
 find: ‘/tmp/snap-private-tmp’: Permission denied
 find: ‘/tmp/systemd-private-09aab6146078454bb8809fd373a1771c-switcheroo-control.service-8J7wZy’: Permission denied
 find: ‘/tmp/systemd-private-09aab6146078454bb8809fd373a1771c-ModemManager.service-4pYpuz’: Permission denied
@@ -2869,7 +2787,6 @@ find: ‘/var/cache/apt/archives/partial’: Permission denied
 /var/cache/debconf/templates.dat-old
 /var/cache/debconf/templates.dat
 find: ‘/var/cache/ldconfig’: Permission denied
-/var/cache/man/index.db
 /var/cache/snapd/commands.db
 /var/cache/swcatalog/cache/en-US-os-catalog.xb
 /var/cache/swcatalog/cache/C-os-catalog.xb
@@ -2885,6 +2802,17 @@ find: ‘/var/log/speech-dispatcher’: Permission denied
 find: ‘/var/log/private’: Permission denied
 find: ‘/var/log/gdm3’: Permission denied
 find: ‘/var/log/sssd’: Permission denied
+find: ‘/var/spool/postfix/private’: Permission denied
+find: ‘/var/spool/postfix/bounce’: Permission denied
+find: ‘/var/spool/postfix/active’: Permission denied
+find: ‘/var/spool/postfix/incoming’: Permission denied
+find: ‘/var/spool/postfix/defer’: Permission denied
+find: ‘/var/spool/postfix/public’: Permission denied
+find: ‘/var/spool/postfix/saved’: Permission denied
+find: ‘/var/spool/postfix/maildrop’: Permission denied
+find: ‘/var/spool/postfix/deferred’: Permission denied
+find: ‘/var/spool/postfix/flush’: Permission denied
+find: ‘/var/spool/postfix/corrupt’: Permission denied
 find: ‘/var/spool/cron/crontabs’: Permission denied
 find: ‘/var/spool/rsyslog’: Permission denied
 find: ‘/var/spool/cups’: Permission denied
@@ -2893,6 +2821,7 @@ find: ‘/var/tmp/systemd-private-09aab6146078454bb8809fd373a1771c-upower.servic
 find: ‘/var/tmp/systemd-private-09aab6146078454bb8809fd373a1771c-systemd-resolved.service-t1MiqU’: Permission denied
 find: ‘/var/tmp/systemd-private-09aab6146078454bb8809fd373a1771c-power-profiles-daemon.service-PrTiwi’: Permission denied
 find: ‘/var/tmp/systemd-private-09aab6146078454bb8809fd373a1771c-polkit.service-aOP5mC’: Permission denied
+find: ‘/var/tmp/systemd-private-09aab6146078454bb8809fd373a1771c-fwupd.service-oqtqCN’: Permission denied
 find: ‘/var/tmp/systemd-private-09aab6146078454bb8809fd373a1771c-systemd-logind.service-9Eq1kZ’: Permission denied
 find: ‘/var/tmp/systemd-private-09aab6146078454bb8809fd373a1771c-systemd-timesyncd.service-bNcnRO’: Permission denied
 find: ‘/var/tmp/systemd-private-09aab6146078454bb8809fd373a1771c-switcheroo-control.service-yUoiQy’: Permission denied
@@ -2974,4 +2903,4 @@ find: ‘/sys/kernel/debug’: Permission denied
 find: ‘/sys/fs/pstore’: Permission denied
 find: ‘/sys/fs/bpf’: Permission denied
 find: ‘/sys/fs/fuse/connections/35’: Permission denied
-2976
+2905
