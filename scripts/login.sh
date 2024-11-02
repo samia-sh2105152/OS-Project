@@ -1,17 +1,21 @@
 #!/bin/bash
 serverip='192.168.1.1'
 try=0
+username1="Client1"
+pass1="Client1"
+username2="Client2"
+pass2="Client2"
 while [ $try -lt 3 ]
 do
 read -p "Enter your user name: " username
 read -p "Enter your password : " password
+if [[ $username = $username1 && $password = $pass1 ]] || [[ $username = $username2 && $password = $pass2 ]]; then 
 
-sshpass -p "$password" ssh -o BatchMode=no -o ConnectTimeout=4 $username@$serverip exit
-
-if [ $? -eq 0 ]; then 
-echo "connected succesfully"
+echo "Username and password correct"
+ssh $username@$serverip
 exit
 else 
+echo "incorrect username and password"
 echo "$(date '+%d/%m/%Y %H:%M:%S') invalid login for user $username" >> invalid_attempts.log
 
 fi
