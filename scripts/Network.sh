@@ -35,7 +35,7 @@ do
     ping -c 1 -W 2 "$client2_ip" >> "$output_network" 2>&1
     if [ $? -ne 0 ]; then
          echo "Ping to client2[$client2_ip] failed. Running traceroute and diagnostic checks..." >> "$output_network"
-         ./traceroute.sh >> "$output_network" 2>&1ssh username@192.168.64.2
+         ./traceroute.sh >> "$output_network" 2>&1
 
          date "+%Y-%m-%d %H:%M:%S - Connectivity with client2 [$client2_ip] failed, running diagnostics." >> "$output_network"
     else
@@ -61,12 +61,12 @@ do
     echo "====================================" >> "$output_network"
 
     echo "Pinging from client1 (VM2) to server (VM1)..." >> "$output_network"
-    ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no samia@$client1_ip "ping -c 1 -W 2 $server_ip" >> "$output_network" 2>&1
+    ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no client1@$client1_ip "ping -c 1 -W 2 $server_ip" >> "$output_network" 2>&1
     ssh_exit_status=$?
 
     if [ $ssh_exit_status -ne 0 ]; then
         echo "Ping to server [$server_ip] failed. Running traceroute and diagnostic checks..." >> "$output_network"
-        ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no samia@$client1_ip "./traceroute.sh" >> "$output_network" 2>&1
+        ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no client1@$client1_ip "./traceroute.sh" >> "$output_network" 2>&1
         date "+%Y-%m-%d %H:%M:%S - Connectivity with server [$server_ip] failed, running diagnostics." >> "$output_network"
     else
     	echo >> "$output_network"
@@ -76,12 +76,12 @@ do
 
     echo "Pinging from client2 (VM3) to server (VM1)..." >> "$output_network"
 
-    ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no samia@$client1_ip "ping -c 1 -W 2 $server_ip" >> "$output_network" 2>&1
+    ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no client2@$client2_ip "ping -c 1 -W 2 $server_ip" >> "$output_network" 2>&1
     ssh_exit_status=$?
 
     if [ $ssh_exit_status -ne 0 ]; then
         echo "Ping to server [$server_ip] failed. Running traceroute and diagnostic checks..." >> "$output_network"
-        ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no samia@$client1_ip "./traceroute.sh" >> "$output_network" 2>&1
+        ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no client2@$client2_ip "./traceroute.sh" >> "$output_network" 2>&1
         date "+%Y-%m-%d %H:%M:%S - Connectivity with server [$server_ip] failed, running diagnostics." >> "$output_network"
     else
         echo >> "$output_network"

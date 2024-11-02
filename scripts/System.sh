@@ -59,4 +59,3 @@ echo "Showing output of mem_cpu_info.log...."
 echo
 cat "$output_cpu_mem"
 echo
-
