@@ -9,8 +9,10 @@ import java.util.concurrent.TimeUnit;
 
 public class Client2 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 
+		String currentPath = new java.io.File(".").getCanonicalPath();
+		 System.out.println("Current dir:" + currentPath);
 		Socket client = null;
 		BufferedReader from_server = null;
 		PrintWriter to_server = null;
@@ -62,7 +64,7 @@ public class Client2 {
 
 	private static void runSerachScript() {
 		try {
-			Process pro = Runtime.getRuntime().exec("./Search.sh");
+			Process pro = Runtime.getRuntime().exec("scripts/Search.sh");
 			BufferedReader search_output = new BufferedReader(new InputStreamReader(pro.getInputStream()));
 			String line = search_output.readLine();
 
@@ -80,8 +82,23 @@ public class Client2 {
 	}
 
 	private static void runClientinfoScript() {
-		// TODO Auto-generated method stub
+		try {
+			Process pro = Runtime.getRuntime().exec("scripts/Clientinfo.sh");
+			BufferedReader search_output = new BufferedReader(new InputStreamReader(pro.getInputStream()));
+			String line = search_output.readLine();
 
+			while (line != null) {
+				System.out.println(line);
+				line = search_output.readLine();
+			}
+			pro.waitFor(1, TimeUnit.MINUTES);
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	
 	}
 
 }
