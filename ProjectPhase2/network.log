@@ -1,0 +1,83 @@
+Server IP: 192.168.64.3
+Client1 IP: 192.168.64.2
+
+Pinging from server to clients: 
+----------------------------------
+
+Attempt 1:
+====================================
+Pinging from server (VM1) to client1 (VM2)...
+PING 192.168.64.2 (192.168.64.2): 56 data bytes
+
+--- 192.168.64.2 ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+Ping to client1[192.168.64.2] failed. Running traceroute and diagnostic checks...
+../scripts/Network.sh: line 28: ./traceroute.sh: No such file or directory
+2024-11-22 21:45:20 - Connectivity with client1 [192.168.64.2] failed, running diagnostics.
+
+Pinging from server (VM1) to client2 (VM3)...
+PING 192.168.64.2 (192.168.64.2): 56 data bytes
+
+--- 192.168.64.2 ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+Ping to client2[192.168.64.2] failed. Running traceroute and diagnostic checks...
+../scripts/Network.sh: line 39: ./traceroute.sh: No such file or directory
+2024-11-22 21:45:21 - Connectivity with client2 [192.168.64.2] failed, running diagnostics.
+
+-------------------------------------------------
+
+Attempt 2:
+====================================
+Pinging from server (VM1) to client1 (VM2)...
+PING 192.168.64.2 (192.168.64.2): 56 data bytes
+
+--- 192.168.64.2 ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+Ping to client1[192.168.64.2] failed. Running traceroute and diagnostic checks...
+../scripts/Network.sh: line 28: ./traceroute.sh: No such file or directory
+2024-11-22 21:45:22 - Connectivity with client1 [192.168.64.2] failed, running diagnostics.
+
+Pinging from server (VM1) to client2 (VM3)...
+PING 192.168.64.2 (192.168.64.2): 56 data bytes
+
+--- 192.168.64.2 ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+Ping to client2[192.168.64.2] failed. Running traceroute and diagnostic checks...
+../scripts/Network.sh: line 39: ./traceroute.sh: No such file or directory
+2024-11-22 21:45:23 - Connectivity with client2 [192.168.64.2] failed, running diagnostics.
+
+-------------------------------------------------
+
+Attempt 3:
+====================================
+Pinging from server (VM1) to client1 (VM2)...
+PING 192.168.64.2 (192.168.64.2): 56 data bytes
+
+--- 192.168.64.2 ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+Ping to client1[192.168.64.2] failed. Running traceroute and diagnostic checks...
+../scripts/Network.sh: line 28: ./traceroute.sh: No such file or directory
+2024-11-22 21:45:24 - Connectivity with client1 [192.168.64.2] failed, running diagnostics.
+
+Pinging from server (VM1) to client2 (VM3)...
+PING 192.168.64.2 (192.168.64.2): 56 data bytes
+
+--- 192.168.64.2 ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+Ping to client2[192.168.64.2] failed. Running traceroute and diagnostic checks...
+../scripts/Network.sh: line 39: ./traceroute.sh: No such file or directory
+2024-11-22 21:45:25 - Connectivity with client2 [192.168.64.2] failed, running diagnostics.
+
+-------------------------------------------------
+
+
+Pinging from clients to server: 
+----------------------------------
+
+Attempt 1:
+====================================
+Pinging from client1 (VM2) to server (VM1)...
+Warning: Identity file /Users/raisa_hasan/.ssh/id_rsa not accessible: No such file or directory.
+ssh: connect to host 192.168.64.2 port 22: Operation timed out
+Ping to server [192.168.64.3] failed. Running traceroute and diagnostic checks...
+Warning: Identity file /Users/raisa_hasan/.ssh/id_rsa not accessible: No such file or directory.
