@@ -1,5 +1,4 @@
 #!/bin/bash
-export TERM=xterm
 clear
 echo
 output_network="network.log"
