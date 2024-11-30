@@ -1,5 +1,5 @@
 #!/bin/bash
-serverip='192.168.1.1'
+serverip=$1
 try=0
 username1="Client1"
 pass1="Client1"
@@ -24,7 +24,7 @@ done
 
 if [ $try -eq 3 ]; then
 echo "Unotherised user!"
-
+echo "Sending log file to server @ ip $serverip"
 sftp $username@$serverip<< EOF
 put invalid_attempts.log 
 exit

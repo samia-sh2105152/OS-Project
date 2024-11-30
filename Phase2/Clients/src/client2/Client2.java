@@ -5,14 +5,15 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
+import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 public class Client2 {
 
 	public static void main(String[] args) throws IOException {
 		//runSerachScript();
-		//runClient();
-		runClientinfoScript();
+		runClient();
+		//runClientinfoScript();
 	}
 	public static void runClient() throws IOException {
 		
@@ -25,14 +26,17 @@ public class Client2 {
 
 		try {
 
-			client = new Socket("localhost", 1300);
+			System.out.println("What is Server ip ");
+			Scanner input = new Scanner(System.in);
+			String ip = input.nextLine();
+			client = new Socket(ip, 1300);
 			from_server = new BufferedReader(new InputStreamReader(client.getInputStream()));
 			to_server = new PrintWriter(client.getOutputStream());
 
 			System.out.println("Connected with server " + client.getInetAddress() + ":" + client.getPort());
 
-			runSerachScript();
-			runClientinfoScript();
+			//runSerachScript();
+			//runClientinfoScript();
 			
 
 			while (true) {
