@@ -21,7 +21,7 @@ public class Client2 {
 		BufferedReader from_server = null;
 		PrintWriter to_server = null;
 
-		String serverInput, userInput;
+		String serverInput;
 		//runSerachScript();
 
 		try {
@@ -33,25 +33,25 @@ public class Client2 {
 			from_server = new BufferedReader(new InputStreamReader(client.getInputStream()));
 			to_server = new PrintWriter(client.getOutputStream());
 
-			System.out.println("Connected with server " + client.getInetAddress() + ":" + client.getPort());
+			System.out.println("Client: Connected with server " + client.getInetAddress() + ":" + client.getPort());
 
-			//runSerachScript();
-			//runClientinfoScript();
+			// runSerachScript();
+			// runClientinfoScript();
 			
-
+			
 			while (true) {
-				to_server.println("Systeminfo");
+				to_server.println("System info");
 				to_server.flush();
 				serverInput = from_server.readLine();
 				
 				// if the server receives done just break from this loop
-				while (!(serverInput.equals("done") || serverInput == null)){
+				while (!(serverInput.equals("--- End of System Info ---") || serverInput == null)){
 					System.out.println(serverInput);
 					serverInput = from_server.readLine();
 					
 				}
 				//wating for 5 min
-				TimeUnit.MINUTES.sleep(5);
+				TimeUnit.SECONDS.sleep(5);
 				
 				
 				 

@@ -36,11 +36,13 @@ public class Server {
 
  class Service extends Thread{
 	Socket nextClient;
+    String clientIp;
 	private List<String> clientRequests;
 
 	public Service(Socket nextClient, List<String> clientRequests) {
         this.nextClient = nextClient;
         this.clientRequests = clientRequests;
+        this.clientIp=nextClient.getInetAddress().getHostAddress();
     	}
 	
 	public void run() {
@@ -49,76 +51,82 @@ public class Server {
 		BufferedReader from_client;
 		try {
 			to_client = new PrintWriter(nextClient.getOutputStream(), true);
-			to_client.println("Connected to server at: " +new Date());
+			to_client.println("Server: Connected to server at: " +new Date());
 			executeNetworkScript();
 			from_client=new BufferedReader(new InputStreamReader(nextClient.getInputStream()));
-			to_client.println("Do you want system information? (yes/no)");
+			// to_client.println("Server: Do you want system information? (yes/no)");
+            while (true) {
+                
+            
 			String clientResponse = from_client.readLine();
 
-			if (clientResponse != null && clientResponse.equalsIgnoreCase("yes")) {
+			if (clientResponse != null && clientResponse.equalsIgnoreCase("System info")) {
                 System.out.println("Client requested system information.");
                 sendSystemInfo(to_client); // Execute system.sh and send output
-            } else {
-                System.out.println("Client declined system information.");
-                to_client.println("No system information will be provided.");
+            } 
+            // else {
+            //     System.out.println("Client declined system information.");
+            //     to_client.println("No system information will be provided.");
+            // }
+			// if(nextClient !=null)
+			// 	nextClient.close();
             }
-			if(nextClient !=null)
-				nextClient.close();
 		} catch(IOException ioe){
 			System.out.println("Error" + ioe);
 		}
 		
 	}
 	private void executeNetworkScript() {
-        try {
+        // try {
           
-            ProcessBuilder processBuilder = new ProcessBuilder("bash", "./Network.sh");
-            processBuilder.redirectErrorStream(true);
+        //     ProcessBuilder processBuilder = new ProcessBuilder("bash", "./Network.sh",clientIp);
+        //     processBuilder.redirectErrorStream(true);
 
             
-            Process process = processBuilder.start();
+        //     Process process = processBuilder.start();
 
        
-            BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-            String line;
+        //     BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+        //     String line;
             System.out.println("Output from Network.sh:");
-            while ((line = reader.readLine()) != null) {
-                System.out.println(line);
-            }
+        //     while ((line = reader.readLine()) != null) {
+        //         System.out.println(line);
+        //     }
 
          
-            int exitCode = process.waitFor();
-            System.out.println("Network.sh executed with exit code: " + exitCode);
-        } catch (Exception e) {
-            System.out.println("Error executing Network.sh: " + e.getMessage());
-        }
+        //     int exitCode = process.waitFor();
+        //     System.out.println("Network.sh executed with exit code: " + exitCode);
+        // } catch (Exception e) {
+        //     System.out.println("Error executing Network.sh: " + e.getMessage());
+        // }
     }
 private void sendSystemInfo(PrintWriter to_client) {
     try {
-         ProcessBuilder processBuilder = new ProcessBuilder("bash", "./System.sh");
-        processBuilder.redirectErrorStream(true);
-        Process process = processBuilder.start();
+        //  ProcessBuilder processBuilder = new ProcessBuilder("bash", "./System.sh");
+        // processBuilder.redirectErrorStream(true);
+        // Process process = processBuilder.start();
 
         
-        BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-        StringBuilder output = new StringBuilder();
-        String line;
-        while ((line = reader.readLine()) != null) {
-            output.append(line).append("\n");
-        }
+        // BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+        StringBuilder output = new StringBuilder("executing the system.sh\nthis is the second line\nthis is the third line");
+        // String line;
+        // while ((line = reader.readLine()) != null) {
+        //     output.append(line).append("\n");
+        // }
 
         
-        int exitCode = process.waitFor();
-        if (exitCode != 0) {
-            System.out.println("system.sh execution failed with exit code: " + exitCode);
-        } else {
-            System.out.println("system.sh executed successfully.");
-        }
+        // int exitCode = process.waitFor();
+        // if (exitCode != 0) {
+        //     System.out.println("system.sh execution failed with exit code: " + exitCode);
+        // } else {
+        //     System.out.println("system.sh executed successfully.");
+        // }
 
         //send output
-        to_client = new PrintWriter(nextClient.getOutputStream(), true);
+        // to_client = new PrintWriter(nextClient.getOutputStream(), true);
         to_client.println("System Information:");
         to_client.println(output.toString()); 
+        to_client.println(" Waiting for your next request after 5 min ");
         to_client.println("--- End of System Info ---");
         System.out.println("System information sent to client.");
     } catch (Exception e) {
