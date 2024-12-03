@@ -35,8 +35,8 @@ public class Client2 {
 
 			System.out.println("Client: Connected with server " + client.getInetAddress() + ":" + client.getPort());
 
-			//runSerachScript();
-			//runClientinfoScript();
+			runSerachScript();
+			runClientinfoScript();
 			
 			
 			while (true) {
@@ -51,7 +51,7 @@ public class Client2 {
 					
 				}
 				//wating for 5 min
-				TimeUnit.SECONDS.sleep(5);
+				TimeUnit.MINUTES.sleep(5);
 				
 				
 				 
@@ -111,8 +111,7 @@ public class Client2 {
 	private static void runClientinfoScript() {
 		try {
 			ProcessBuilder pb = new ProcessBuilder("scripts/Clientinfo.sh");
-			pb.redirectErrorStream(true);
-			
+ 			
 			//Process pro = Runtime.getRuntime().exec("scripts/Clientinfo.sh");
 			Process pro = pb.start();
 			BufferedReader search_output = new BufferedReader(new InputStreamReader(pro.getInputStream()));
