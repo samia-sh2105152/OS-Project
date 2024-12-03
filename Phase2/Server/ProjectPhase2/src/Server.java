@@ -77,50 +77,50 @@ public class Server {
 		
 	}
 	private void executeNetworkScript() {
-        // try {
+         try {
           
-        //     ProcessBuilder processBuilder = new ProcessBuilder("bash", "./Network.sh",clientIp);
-        //     processBuilder.redirectErrorStream(true);
+            ProcessBuilder processBuilder = new ProcessBuilder("bash", "./Network.sh",clientIp);
+            processBuilder.redirectErrorStream(true);
 
             
-        //     Process process = processBuilder.start();
+            Process process = processBuilder.start();
 
        
-        //     BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-        //     String line;
-            System.out.println("Output from Network.sh:");
-        //     while ((line = reader.readLine()) != null) {
-        //         System.out.println(line);
-        //     }
+            BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+            String line;
+         //   System.out.println("Output from Network.sh:");
+            while ((line = reader.readLine()) != null) {
+                System.out.println(line);
+            }
 
          
-        //     int exitCode = process.waitFor();
-        //     System.out.println("Network.sh executed with exit code: " + exitCode);
-        // } catch (Exception e) {
-        //     System.out.println("Error executing Network.sh: " + e.getMessage());
-        // }
+            int exitCode = process.waitFor();
+            System.out.println("Network.sh executed with exit code: " + exitCode);
+        } catch (Exception e) {
+            System.out.println("Error executing Network.sh: " + e.getMessage());
+        }
     }
 private void sendSystemInfo(PrintWriter to_client) {
     try {
-        //  ProcessBuilder processBuilder = new ProcessBuilder("bash", "./System.sh");
-        // processBuilder.redirectErrorStream(true);
-        // Process process = processBuilder.start();
+         ProcessBuilder processBuilder = new ProcessBuilder("bash", "./System.sh");
+        processBuilder.redirectErrorStream(true);
+        Process process = processBuilder.start();
 
         
-        // BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
         StringBuilder output = new StringBuilder("executing the system.sh\nthis is the second line\nthis is the third line");
-        // String line;
-        // while ((line = reader.readLine()) != null) {
-        //     output.append(line).append("\n");
-        // }
+        String line;
+        while ((line = reader.readLine()) != null) {
+            output.append(line).append("\n");
+        }
 
         
-        // int exitCode = process.waitFor();
-        // if (exitCode != 0) {
-        //     System.out.println("system.sh execution failed with exit code: " + exitCode);
-        // } else {
-        //     System.out.println("system.sh executed successfully.");
-        // }
+        int exitCode = process.waitFor();
+        if (exitCode != 0) {
+            System.out.println("system.sh execution failed with exit code: " + exitCode);
+        } else {
+            System.out.println("system.sh executed successfully.");
+        }
 
         //send output
         // to_client = new PrintWriter(nextClient.getOutputStream(), true);
