@@ -35,8 +35,8 @@ public class Client2 {
 
 			System.out.println("Client: Connected with server " + client.getInetAddress() + ":" + client.getPort());
 
-			// runSerachScript();
-			// runClientinfoScript();
+			//runSerachScript();
+			//runClientinfoScript();
 			
 			
 			while (true) {

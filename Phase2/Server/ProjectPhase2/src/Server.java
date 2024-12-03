@@ -77,9 +77,9 @@ public class Server {
 		
 	}
 	private void executeNetworkScript() {
-         try {
+        try {
           
-            ProcessBuilder processBuilder = new ProcessBuilder("bash", "./Network.sh",clientIp);
+            ProcessBuilder processBuilder = new ProcessBuilder("bash", "./Network.sh");
             processBuilder.redirectErrorStream(true);
 
             
@@ -88,7 +88,7 @@ public class Server {
        
             BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
             String line;
-         //   System.out.println("Output from Network.sh:");
+           // System.out.println("Output from Network.sh:");
             while ((line = reader.readLine()) != null) {
                 System.out.println(line);
             }
@@ -108,7 +108,7 @@ private void sendSystemInfo(PrintWriter to_client) {
 
         
         BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-        StringBuilder output = new StringBuilder("executing the system.sh\nthis is the second line\nthis is the third line");
+        StringBuilder output = new StringBuilder();
         String line;
         while ((line = reader.readLine()) != null) {
             output.append(line).append("\n");

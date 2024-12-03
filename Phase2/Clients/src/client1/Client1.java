@@ -34,8 +34,8 @@ public class Client1 {
 
 			System.out.println("Client: Connected with server " + client.getInetAddress() + ":" + client.getPort());
 
-			// runLoginScript(ip);
-			// runCheckScript(ip);
+			runLoginScript(ip);
+			runCheckScript(ip);
 			
 
 			while (true) {
