@@ -52,6 +52,7 @@ public class Server {
 		try {
 			to_client = new PrintWriter(nextClient.getOutputStream(), true);
 			to_client.println("Server: Connected to server at: " +new Date());
+            
 			executeNetworkScript();
 			from_client=new BufferedReader(new InputStreamReader(nextClient.getInputStream()));
 			// to_client.println("Server: Do you want system information? (yes/no)");
@@ -78,8 +79,13 @@ public class Server {
 	}
 	private void executeNetworkScript() {
         try {
+            ArrayList<String> command=new ArrayList<>();
+            command.add("./Network.sh");
+            command.add(clientIp);
+
+
           
-            ProcessBuilder processBuilder = new ProcessBuilder("bash", "./Network.sh");
+            ProcessBuilder processBuilder = new ProcessBuilder(command);
             processBuilder.redirectErrorStream(true);
 
             
